@@ -1,1 +1,3 @@
-# AjaxCheats
+
+# Supported games:
+- DeadLock Hack
